@@ -4,6 +4,7 @@ import Axios from 'axios';
 import SideVideo from './Sections/SideVideo';
 import Subscribe from './Sections/Subscribe';
 import Comment from './Sections/Comment';
+import LikeDislikes from './Sections/LikeDislikes';
 
 function VideoDetailPage(props) {
     
@@ -11,7 +12,7 @@ function VideoDetailPage(props) {
     const variable = { videoId: videoId }
     
     const [VideoDetail, setVideoDetail] = useState([])
-    //const [Comments, setComments] = useState("")
+    const [Comments, setComments] = useState([])
     
     useEffect(() => {
         
@@ -24,8 +25,21 @@ function VideoDetailPage(props) {
                     alert("ERROR: Failed to get video information.")
                 }
             })
+        
+        Axios.post('/api/comment/getComments', variable)
+            .then(response => {
+                if(response.data.success){
+                    setComments(response.data.comments)
+                } else {
+                    alert('ERROR: Comments Info import failed.')
+                }
+            })
 
     }, [])
+
+    const refreshFunc = (newComments) => {
+        setComments(Comments.concat(newComments))
+    }
     
     if(VideoDetail.writer){
 
@@ -41,7 +55,10 @@ function VideoDetailPage(props) {
 
     
                         <List.Item
-                            actions={[ subscribeButton ]}
+                            actions={[
+                                <LikeDislikes video userId={localStorage.getItem('userId')} videoId={videoId} />, 
+                                subscribeButton 
+                            ]}
                         >
                             <List.Item.Meta
                                 avatar={<Avatar src={VideoDetail.writer.image} />}
@@ -51,7 +68,7 @@ function VideoDetailPage(props) {
                         </List.Item>
     
                         {/* Comment */}
-                        <Comment postId={videoId} />
+                        <Comment postId={videoId} commentLists={Comments} refreshFunc={refreshFunc} />
                     </div>
                 </Col>
     
