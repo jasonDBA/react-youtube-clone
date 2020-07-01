@@ -1,5 +1,9 @@
 # Youtube Clone Project
 
+<br/>
+![](client/src/images/readMe.gif) 
+<br />
+
 ## Description
 This video briefly depicts the Youtube Clone site using React.js, Node.js, MongoDB. <br/>
 The first part shows how to download a project clone from GitHub and render the site. <br/>
