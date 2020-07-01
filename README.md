@@ -101,8 +101,8 @@ In the project, Node.js is used for the back-end, and React.js is used for the f
 - **Subscription**: Displays subsribed videos
 - **Video Upload**: Once logged in, the user can upload videos stored in the local directory
 - **Comments**: Users can leave a comment in the video they are watching
-- **Likes / Dislikes**: Users can select the Likes/Dislikes button for the video or comment they are watching
+- **Likes / Dislikes**: Users can select the Likes/Dislikes button for the video or comment they are watching 
  
-<br/>
+
 [Visit YouTube Video](https://youtu.be/r16x6Hv3mnQ)
  
