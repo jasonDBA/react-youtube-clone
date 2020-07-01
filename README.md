@@ -13,7 +13,7 @@ The second part describes the features and functions of the site. <br/>
 
 ## Motivation
 In school I graduated in April 2020, I learned HTML, CSS, and JS in relation to web developement. <br/>
-However, in practice, I wanted to use a JS library for the US, and I stumbled upon React.js, which is popular these days (created by Facebook). 
+However, in practice, I wanted to use a JS library for the UI, and I stumbled upon React.js, which is popular these days (created by Facebook). 
 Frequently enjoying Youtube, I have been curious about the algorithm applied to the function of updating and subscribing to videos.
 This motivated me to create a personal website by cloning some functions of the Youtube. 
 In the project, Node.js is used for the back-end, and React.js is used for the front-end.
