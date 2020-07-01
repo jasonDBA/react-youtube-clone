@@ -1,7 +1,7 @@
 # Youtube Clone Project
 
 <br/>
-![](client/src/images/readMe.gif) 
+![](../client/src/images/readMe.gif) 
 <br />
 
 ## Description
