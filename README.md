@@ -15,9 +15,7 @@ This motivated me to create a personal website by cloning some functions of the 
 In the project, Node.js is used for the back-end, and React.js is used for the front-end.
 
 ## Installation
-```
-1. Download ffmpeg and set an environmental path:
-See How: https://www.youtube.com/watch?v=qjtmgCb8NcE
+1. Download ffmpeg and set an environmental path: [How?](https://www.youtube.com/watch?v=qjtmgCb8NcE)
 2. Download the clone (it is a root directory)
 3. Open a terminal
 4. Go to the root dir
@@ -30,7 +28,7 @@ See How: https://www.youtube.com/watch?v=qjtmgCb8NcE
 11. Save it
 12. Open a terminal in the root dir
 13. Run Node Package Manager --- **npm run dev**
-```
+
 
 ## Tech/Framework used
 **React.js**: A JavaScript library for building user interfaces
@@ -104,6 +102,7 @@ See How: https://www.youtube.com/watch?v=qjtmgCb8NcE
  - **Video Upload**: Once logged in, the user can upload videos stored in the local directory
  - **Comments**: Users can leave a comment in the video they are watching
  - **Likes / Dislikes**: Users can select the Likes/Dislikes button for the video or comment they are watching
+ 
  <br/>
- [More Details](https://youtu.be/r16x6Hv3mnQ)
+[Visit YouTube Video](https://youtu.be/r16x6Hv3mnQ)
  
