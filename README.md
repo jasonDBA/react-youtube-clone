@@ -16,7 +16,8 @@ In the project, Node.js is used for the back-end, and React.js is used for the f
 
 ## Installation
 ```
-1. Download ffmpeg and set an environmental path: [How?](https://www.youtube.com/watch?v=qjtmgCb8NcE)
+1. Download ffmpeg and set an environmental path:
+See How: https://www.youtube.com/watch?v=qjtmgCb8NcE
 2. Download the clone (it is a root directory)
 3. Open a terminal
 4. Go to the root dir
