@@ -46,9 +46,9 @@ In the project, Node.js is used for the back-end, and React.js is used for the f
 **React Hooks**: A new addition in React 16.8. They let you use state and other React features without writing a class
  - URL: https://reactjs.org/docs/hooks-intro.html <br/>
  
- ## Dependencies
- - The below is React.js dependencies installed by 'npm install' command line
- ```
+## Dependencies
+- The below is React.js dependencies installed by 'npm install' command line
+```
    "dependencies": {
     "antd": "^3.24.1",
     "axios": "^0.19.2",
@@ -67,10 +67,10 @@ In the project, Node.js is used for the back-end, and React.js is used for the f
     "redux-promise": "^0.6.0",
     "redux-thunk": "^2.3.0",
     "yup": "^0.27.0"
- ```
+```
  
- - The below is Node.js dependencies installed by 'npm install' command line
- ```
+- The below is Node.js dependencies installed by 'npm install' command line
+```
    "dependencies": {
     "@ant-design/icons": "^4.2.1",
     "bcrypt": "^5.0.0",
@@ -92,17 +92,17 @@ In the project, Node.js is used for the back-end, and React.js is used for the f
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4"
   }
- ```
+```
  
- ## Features
- - **Log In/Out**: The user's data can be read by logging in/out of the account
- - **Register**: Consisting of Name, Last Name, Email, Password, and Confirm. Registered user data is stored in the 'user' db
- - **Home**: Displays recommended videos
- - **Subscription**: Displays subsribed videos
- - **Video Upload**: Once logged in, the user can upload videos stored in the local directory
- - **Comments**: Users can leave a comment in the video they are watching
- - **Likes / Dislikes**: Users can select the Likes/Dislikes button for the video or comment they are watching
+## Features
+- **Log In/Out**: The user's data can be read by logging in/out of the account
+- **Register**: Consisting of Name, Last Name, Email, Password, and Confirm. Registered user data is stored in the 'user' db
+- **Home**: Displays recommended videos
+- **Subscription**: Displays subsribed videos
+- **Video Upload**: Once logged in, the user can upload videos stored in the local directory
+- **Comments**: Users can leave a comment in the video they are watching
+- **Likes / Dislikes**: Users can select the Likes/Dislikes button for the video or comment they are watching
  
- <br/>
+<br/>
 [Visit YouTube Video](https://youtu.be/r16x6Hv3mnQ)
  
